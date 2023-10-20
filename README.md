@@ -1,3 +1,5 @@
+![](https://miro.medium.com/v2/resize:fit:1250/1*Hiaru2Y0tpvz7JQn7hwY2A.png)
+
 Getting Started with the Project:
 
 Embarking on this journey to set up a real-time race mapper requires a series of steps. Here’s a step-by-step guide to get you started:
