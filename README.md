@@ -4,7 +4,7 @@ Introduction:
 
 One such inspiration for our project came from Saubury’s race-mapper, which can be found on [GitHub](https://github.com/saubury/race-mapper/tree/master). Saubury’s original implementation provided a solid foundation, utilizing tools like Elastic, Kibana, and MQTT. However, as with all technological endeavors, there’s always room for innovation and adaptation. With a desire to elevate the project to the cloud and integrate a different set of tools, I embarked on a journey to reimagine the race-mapper. In this rendition, Elastic and Kibana have been replaced with the powerful Splunk, MQTT has been swapped out for ActiveMQ, and instead of the traditional Kafka, we’ve integrated Confluent Cloud.
 
-![Architecture Splunk](img/splunk.jpg)
+![Architecture Splunk](img/splunk.png)
 
 
 In today’s digital age, real-time data processing has become paramount, especially in dynamic scenarios like a running race. Imagine a race where every stride, every heartbeat, and every second counts. Now, imagine harnessing the power of that data in real-time, transforming it, and visualizing it in a comprehensive dashboard.
