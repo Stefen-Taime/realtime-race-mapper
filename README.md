@@ -6,6 +6,7 @@ One such inspiration for our project came from Saubury’s race-mapper, which ca
 
 ![](https://miro.medium.com/v2/resize:fit:1250/1*ns8c1anZYX02_2A2Goyq8A.gif)
 
+
 In today’s digital age, real-time data processing has become paramount, especially in dynamic scenarios like a running race. Imagine a race where every stride, every heartbeat, and every second counts. Now, imagine harnessing the power of that data in real-time, transforming it, and visualizing it in a comprehensive dashboard.
 
 Let’s take a glimpse at a sample data point:
