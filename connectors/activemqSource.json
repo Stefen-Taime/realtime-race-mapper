@@ -1,0 +1,19 @@
+{
+  "connector.class": "ActiveMQSource",
+  "name": "ActiveMQSourceConnector_0",
+  "kafka.auth.mode": "KAFKA_API_KEY",
+  "kafka.api.key": "",
+  "kafka.api.secret": "",
+  "kafka.topic": "race-mapper-confluent-topic",
+  "schema.context.name": "default",
+  "output.data.format": "AVRO",
+  "activemq.url": "tcp://ip:61616",
+  "activemq.username": "admin",
+  "activemq.password": "admin",
+  "jms.destination.name": "race-mapper",
+  "jms.destination.type": "topic",
+  "max.poll.duration": "60000",
+  "character.encoding": "UTF-8",
+  "jms.subscription.durable": "false",
+  "tasks.max": "1"
+}
