@@ -1,8 +1,9 @@
 Introduction:
 ​
-One such inspiration for our project came from Saubury’s race-mapper, which can be found on [GitHub](https://github.com/saubury/race-mapper/tree/master). Saubury’s original implementation provided a solid foundation, utilizing tools like Elastic, Kibana, and MQTT. However, as with all technological endeavors, there’s always room for innovation and adaptation. With a desire to elevate the project to the cloud and integrate a different set of tools, I embarked on a journey to reimagine the race-mapper. In this rendition, Elastic and Kibana have been replaced with the powerful Splunk, MQTT has been swapped out for ActiveMQ, and instead of the traditional Kafka, we’ve integrated Confluent Cloud.
+One such inspiration for our project came from Saubury’s race-mapper, which can be found on [GitHub](https://github.com/saubury/race-mapper/tree/master).
+Saubury’s original implementation provided a solid foundation, utilizing tools like Elastic, Kibana, and MQTT. However, as with all technological endeavors, there’s always room for innovation and adaptation. With a desire to elevate the project to the cloud and integrate a different set of tools, I embarked on a journey to reimagine the race-mapper. In this rendition, Elastic and Kibana have been replaced with the powerful Splunk, MQTT has been swapped out for ActiveMQ, and instead of the traditional Kafka, we’ve integrated Confluent Cloud.
 ​
-![](https://miro.medium.com/v2/resize:fit:1250/1*ns8c1anZYX02_2A2Goyq8A.gif)
+![](https://cdn-images-1.medium.com/max/3764/1*ns8c1anZYX02_2A2Goyq8A.gif)
 ​
 
 Getting Started with the Project:
