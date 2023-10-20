@@ -1,11 +1,3 @@
-[
-
-![Stefentaime](https://miro.medium.com/v2/resize:fill:88:88/1*ZvANyDda9Ual0g4Cq0RIug.jpeg)
-
-
-
-](https://medium.com/@stefentaime_10958?source=post_page-----4e4f867db763--------------------------------)
-
 ![](https://miro.medium.com/v2/resize:fit:1250/1*Hiaru2Y0tpvz7JQn7hwY2A.png)
 
 Introduction:
