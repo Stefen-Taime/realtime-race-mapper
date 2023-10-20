@@ -1,0 +1,24 @@
+Average_Speed:
+index="race-mapper-splunk-index" source="http:race-mapper" | stats avg(SPEED) as Average_Speed
+
+number of runners tracked:
+index="race-mapper-splunk-index" source="http:race-mapper" | dedup WHO | stats count
+
+Grid:
+index="race-mapper-splunk-index" source="http:race-mapper" | stats min(SPEED) as Min_Speed, max(SPEED) as Max_Speed, last("DIST_TO_FINISH") as Dist_to_Finish by WHO
+
+altitudes as a function of time:
+index="race-mapper-splunk-index" source="http:race-mapper" | timechart avg(ALT) by WHO
+
+Speed_Line:
+index="race-mapper-splunk-index" source="http:race-mapper" | timechart avg(SPEED) by WHO
+
+
+
+maps:
+
+1. source="http:race-mapper" (index="race-mapper-splunk-index") | rex field=LOCATION "(?P<latitude>[^,]+),(?P<longitude>[^,]+)" | table latitude, longitude
+
+2. source="http:race-mapper" (index="race-mapper-splunk-index") | rex field=LOCATION "(?P<latitude>[^,]+),(?P<longitude>[^,]+)" | eval latlon = latitude + "," + longitude | geostats latfield=latitude longfield=longitude count
+
+3.source="http:race-mapper" (index="race-mapper-splunk-index")  | rex field=LOCATION "(?P<latitude>[^,]+),(?P<longitude>[^,]+)" | search latitude>=-45.00000 latitude<-22.50000 longitude>=135.00000 longitude<180.00000
