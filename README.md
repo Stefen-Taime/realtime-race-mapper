@@ -1,5 +1,3 @@
-# realtime-race-mapper
-
 Getting Started with the Project:
 
 Embarking on this journey to set up a real-time race mapper requires a series of steps. Here’s a step-by-step guide to get you started:
