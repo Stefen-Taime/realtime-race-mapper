@@ -1,5 +1,4 @@
-![Stefentaime]
-(https://miro.medium.com/v2/resize:fill:88:88/1*ZvANyDda9Ual0g4Cq0RIug.jpeg)
+!(https://miro.medium.com/v2/resize:fill:88:88/1*ZvANyDda9Ual0g4Cq0RIug.jpeg)
 
 
 Introduction:
