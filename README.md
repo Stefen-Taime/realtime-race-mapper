@@ -1,4 +1,4 @@
-![](https://miro.medium.com/v2/resize:fill:88:88/1*ZvANyDda9Ual0g4Cq0RIug.jpeg)
+![](https://cdn-images-1.medium.com/max/5158/1*exfHtMu-6fvcSnto_FXPcw.png)
 
 
 Introduction:
